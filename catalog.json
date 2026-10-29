@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "minecraft_version": "1.21.4",
-  "revision": "2026-10-28T21:34:15.226133Z",
+  "revision": "2026-10-29T21:38:59.401789500Z",
   "layouts": [
     {
       "guiKey": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
@@ -78,12 +78,962 @@
   ],
   "recipes": [
     {
+      "id": "82061d0f2b10597d7e1a9993d56697903d30ef3f42fa71ba76e78a3989b9d348",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309704634,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        {
+          "id": "minecraft:paper",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"벌크 판다의 목패 주머니\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+            "minecraft:item_name": "\"벌크 판다의 목패 주머니\"",
+            "minecraft:lore": [
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 판다의 목패를 합친 주머니입니다.\"}",
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"대형 제작대에서 제작할 수 있습니다.\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+              "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+            ],
+            "minecraft:custom_model_data": {
+              "floats": [
+                2066006.0
+              ]
+            },
+            "minecraft:tooltip_style": "minecraft:rare",
+            "minecraft:custom_data": {
+              "PublicBukkitValues": {
+                "minecraft:item_id": "other:4243",
+                "nexo:id": "panda_woodtag_pouch",
+                "minecraft:tradable_state": "untradable"
+              }
+            }
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:paper",
+        "count": 10,
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"벌크 판다의 목패\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+          "minecraft:item_name": "\"panda_woodtag\"",
+          "minecraft:lore": [
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 판다가 드롭하는 일반적 전리품입니다.\"}",
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"은밀한 거래 상인을 통해 사용할 수 있습니다.\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+            "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+          ],
+          "minecraft:custom_model_data": {
+            "floats": [
+              2066005.0
+            ]
+          },
+          "minecraft:tooltip_style": "minecraft:rare",
+          "minecraft:custom_data": {
+            "PublicBukkitValues": {
+              "minecraft:item_id": "other:4184",
+              "nexo:id": "panda_woodtag",
+              "minecraft:tradable_state": "untradable"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "b0d387962d52147c3a114efe5e2f6687cccb862146f026684577f562a0b3b4d6",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309703027,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        {
+          "id": "minecraft:paper",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"고요한 바람의 여운석 주머니\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+            "minecraft:item_name": "\"고요한 바람의 여운석 주머니\"",
+            "minecraft:lore": [
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"고요한 바람의 여운석을 합친 주머니입니다.\"}",
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"대형 제작대에서 제작할 수 있습니다.\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+              "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+            ],
+            "minecraft:custom_model_data": {
+              "floats": [
+                2066007.0
+              ]
+            },
+            "minecraft:tooltip_style": "minecraft:rare",
+            "minecraft:custom_data": {
+              "PublicBukkitValues": {
+                "minecraft:item_id": "other:4242",
+                "nexo:id": "calmwind_stone_pouch",
+                "minecraft:tradable_state": "untradable"
+              }
+            }
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:paper",
+        "count": 10,
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"고요한 바람의 여운석\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀆ\"}",
+          "minecraft:item_name": "\"calmwind_stone\"",
+          "minecraft:lore": [
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 판다가 드롭하는 특수한 전리품입니다.\"}",
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"은밀한 거래 상인을 통해 사용할 수 있습니다.\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+            "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+          ],
+          "minecraft:custom_model_data": {
+            "floats": [
+              2066001.0
+            ]
+          },
+          "minecraft:tooltip_style": "minecraft:legendary",
+          "minecraft:custom_data": {
+            "PublicBukkitValues": {
+              "minecraft:item_id": "other:4176",
+              "nexo:id": "calmwind_stone",
+              "minecraft:tradable_state": "untradable"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "300a460d7575b100f9c857eb98929456dd3b7ce1c9ae429f23a48e145f538672",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309701475,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        {
+          "id": "minecraft:paper",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"벌크 워든의 뿔 주머니\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+            "minecraft:item_name": "\"벌크 워든의 뿔 주머니\"",
+            "minecraft:lore": [
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 워든의 뿔을 합친 주머니입니다.\"}",
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"대형 제작대에서 제작할 수 있습니다.\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+              "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+            ],
+            "minecraft:custom_model_data": {
+              "floats": [
+                2067001.0
+              ]
+            },
+            "minecraft:tooltip_style": "minecraft:rare",
+            "minecraft:custom_data": {
+              "PublicBukkitValues": {
+                "minecraft:item_id": "other:4241",
+                "nexo:id": "warden_horn_pouch",
+                "minecraft:tradable_state": "untradable"
+              }
+            }
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:paper",
+        "count": 10,
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"벌크 워든의 뿔\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+          "minecraft:item_name": "\"warden_horn\"",
+          "minecraft:lore": [
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 워든이 드롭하는 일반적 전리품입니다.\"}",
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"은밀한 거래 상인을 통해 사용할 수 있습니다.\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+            "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+          ],
+          "minecraft:custom_model_data": {
+            "floats": [
+              2064016.0
+            ]
+          },
+          "minecraft:tooltip_style": "minecraft:rare",
+          "minecraft:custom_data": {
+            "PublicBukkitValues": {
+              "minecraft:item_id": "other:3882",
+              "nexo:id": "warden_horn",
+              "minecraft:tradable_state": "untradable"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "0080f4aacc0a90a52e21b5157f1e71683baf9b053c5a1a0bd5604187d08a6095",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309699934,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        {
+          "id": "minecraft:paper",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"깊은 어둠의 공명석 주머니\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+            "minecraft:item_name": "\"깊은 어둠의 공명석 주머니\"",
+            "minecraft:lore": [
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"깊은 어둠의 공명석을 합친 주머니입니다.\"}",
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"대형 제작대에서 제작할 수 있습니다.\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+              "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+            ],
+            "minecraft:custom_model_data": {
+              "floats": [
+                2067002.0
+              ]
+            },
+            "minecraft:tooltip_style": "minecraft:rare",
+            "minecraft:custom_data": {
+              "PublicBukkitValues": {
+                "minecraft:item_id": "other:4240",
+                "nexo:id": "deepdark_stone_pouch",
+                "minecraft:tradable_state": "untradable"
+              }
+            }
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:paper",
+        "count": 10,
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"깊은 어둠의 공명석\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀆ\"}",
+          "minecraft:item_name": "\"deepdark_stone\"",
+          "minecraft:lore": [
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 워든이 드롭하는 특수한 전리품입니다.\"}",
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"은밀한 거래 상인을 통해 사용할 수 있습니다.\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+            "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+          ],
+          "minecraft:custom_model_data": {
+            "floats": [
+              2064003.0
+            ]
+          },
+          "minecraft:tooltip_style": "minecraft:legendary",
+          "minecraft:custom_data": {
+            "PublicBukkitValues": {
+              "minecraft:item_id": "other:3884",
+              "nexo:id": "deepdark_stone",
+              "minecraft:tradable_state": "untradable"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "cd04797cf9a528babbf7728ca27c12d37b61d6455c123ed5b91d897dd96a7f11",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309698308,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        {
+          "id": "minecraft:paper",
+          "count": 10,
+          "components": {
+            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"벌크 판다의 목패\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+            "minecraft:item_name": "\"panda_woodtag\"",
+            "minecraft:lore": [
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 판다가 드롭하는 일반적 전리품입니다.\"}",
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"은밀한 거래 상인을 통해 사용할 수 있습니다.\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+              "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+            ],
+            "minecraft:custom_model_data": {
+              "floats": [
+                2066005.0
+              ]
+            },
+            "minecraft:tooltip_style": "minecraft:rare",
+            "minecraft:custom_data": {
+              "PublicBukkitValues": {
+                "minecraft:item_id": "other:4184",
+                "nexo:id": "panda_woodtag",
+                "minecraft:tradable_state": "untradable"
+              }
+            }
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:paper",
+        "count": 1,
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"벌크 판다의 목패 주머니\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+          "minecraft:item_name": "\"벌크 판다의 목패 주머니\"",
+          "minecraft:lore": [
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 판다의 목패를 합친 주머니입니다.\"}",
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"대형 제작대에서 제작할 수 있습니다.\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+            "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+          ],
+          "minecraft:custom_model_data": {
+            "floats": [
+              2066006.0
+            ]
+          },
+          "minecraft:tooltip_style": "minecraft:rare",
+          "minecraft:custom_data": {
+            "PublicBukkitValues": {
+              "minecraft:item_id": "other:4243",
+              "nexo:id": "panda_woodtag_pouch",
+              "minecraft:tradable_state": "untradable"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "33345267a47ba3608b28f49e0ab0c56ca607b7336cff8ca8a504006163f7ac89",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309696695,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        {
+          "id": "minecraft:paper",
+          "count": 10,
+          "components": {
+            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"고요한 바람의 여운석\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀆ\"}",
+            "minecraft:item_name": "\"calmwind_stone\"",
+            "minecraft:lore": [
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 판다가 드롭하는 특수한 전리품입니다.\"}",
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"은밀한 거래 상인을 통해 사용할 수 있습니다.\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+              "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+            ],
+            "minecraft:custom_model_data": {
+              "floats": [
+                2066001.0
+              ]
+            },
+            "minecraft:tooltip_style": "minecraft:legendary",
+            "minecraft:custom_data": {
+              "PublicBukkitValues": {
+                "minecraft:item_id": "other:4176",
+                "nexo:id": "calmwind_stone",
+                "minecraft:tradable_state": "untradable"
+              }
+            }
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:paper",
+        "count": 1,
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"고요한 바람의 여운석 주머니\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+          "minecraft:item_name": "\"고요한 바람의 여운석 주머니\"",
+          "minecraft:lore": [
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"고요한 바람의 여운석을 합친 주머니입니다.\"}",
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"대형 제작대에서 제작할 수 있습니다.\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+            "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+          ],
+          "minecraft:custom_model_data": {
+            "floats": [
+              2066007.0
+            ]
+          },
+          "minecraft:tooltip_style": "minecraft:rare",
+          "minecraft:custom_data": {
+            "PublicBukkitValues": {
+              "minecraft:item_id": "other:4242",
+              "nexo:id": "calmwind_stone_pouch",
+              "minecraft:tradable_state": "untradable"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "53649886aaee25d80d6f6448dffa1d966507adf4acf7643ff99b7ae676e86220",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309695094,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        {
+          "id": "minecraft:paper",
+          "count": 10,
+          "components": {
+            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"벌크 워든의 뿔\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+            "minecraft:item_name": "\"warden_horn\"",
+            "minecraft:lore": [
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 워든이 드롭하는 일반적 전리품입니다.\"}",
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"은밀한 거래 상인을 통해 사용할 수 있습니다.\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+              "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+            ],
+            "minecraft:custom_model_data": {
+              "floats": [
+                2064016.0
+              ]
+            },
+            "minecraft:tooltip_style": "minecraft:rare",
+            "minecraft:custom_data": {
+              "PublicBukkitValues": {
+                "minecraft:item_id": "other:3882",
+                "nexo:id": "warden_horn",
+                "minecraft:tradable_state": "untradable"
+              }
+            }
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:paper",
+        "count": 1,
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"벌크 워든의 뿔 주머니\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+          "minecraft:item_name": "\"벌크 워든의 뿔 주머니\"",
+          "minecraft:lore": [
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 워든의 뿔을 합친 주머니입니다.\"}",
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"대형 제작대에서 제작할 수 있습니다.\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+            "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+          ],
+          "minecraft:custom_model_data": {
+            "floats": [
+              2067001.0
+            ]
+          },
+          "minecraft:tooltip_style": "minecraft:rare",
+          "minecraft:custom_data": {
+            "PublicBukkitValues": {
+              "minecraft:item_id": "other:4241",
+              "nexo:id": "warden_horn_pouch",
+              "minecraft:tradable_state": "untradable"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bb8fd3bfac4a44c703ff230a4ec3ee9d2930fe5a02f1d1455528b99bcb93e251",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309693556,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        {
+          "id": "minecraft:paper",
+          "count": 10,
+          "components": {
+            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"깊은 어둠의 공명석\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀆ\"}",
+            "minecraft:item_name": "\"deepdark_stone\"",
+            "minecraft:lore": [
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 워든이 드롭하는 특수한 전리품입니다.\"}",
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"은밀한 거래 상인을 통해 사용할 수 있습니다.\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+              "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+              "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+            ],
+            "minecraft:custom_model_data": {
+              "floats": [
+                2064003.0
+              ]
+            },
+            "minecraft:tooltip_style": "minecraft:legendary",
+            "minecraft:custom_data": {
+              "PublicBukkitValues": {
+                "minecraft:item_id": "other:3884",
+                "nexo:id": "deepdark_stone",
+                "minecraft:tradable_state": "untradable"
+              }
+            }
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:paper",
+        "count": 1,
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"깊은 어둠의 공명석 주머니\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+          "minecraft:item_name": "\"깊은 어둠의 공명석 주머니\"",
+          "minecraft:lore": [
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"깊은 어둠의 공명석을 합친 주머니입니다.\"}",
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"대형 제작대에서 제작할 수 있습니다.\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+            "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 거래 가능 상태 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"거래 불가\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+          ],
+          "minecraft:custom_model_data": {
+            "floats": [
+              2067002.0
+            ]
+          },
+          "minecraft:tooltip_style": "minecraft:rare",
+          "minecraft:custom_data": {
+            "PublicBukkitValues": {
+              "minecraft:item_id": "other:4240",
+              "nexo:id": "deepdark_stone_pouch",
+              "minecraft:tradable_state": "untradable"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "1ca033aaf8a583dee84dc3d27e53bd3405c6ae264e9203d79ec071e500c258d5",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309691929,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:white_banner",
+          "count": 4
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"잃어버린 붓\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀃ\"}",
+            "minecraft:item_name": "\"panda_brush\"",
+            "minecraft:lore": [
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"판다에게서 확률적으로 획득합니다.\"}",
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 판다의 형판 제작에 사용됩니다.\"}"
+            ],
+            "minecraft:custom_model_data": {
+              "floats": [
+                2066004.0
+              ]
+            },
+            "minecraft:tooltip_style": "minecraft:normal",
+            "minecraft:custom_data": {
+              "PublicBukkitValues": {
+                "minecraft:item_id": "other:4180",
+                "nexo:id": "panda_brush"
+              }
+            }
+          }
+        },
+        {
+          "id": "minecraft:white_banner",
+          "count": 4
+        },
+        null,
+        null,
+        {
+          "id": "minecraft:lapis_block",
+          "count": 10
+        },
+        {
+          "id": "minecraft:emerald_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:lapis_block",
+          "count": 10
+        },
+        null,
+        null,
+        {
+          "id": "minecraft:ink_sac",
+          "count": 8
+        },
+        {
+          "id": "minecraft:ink_sac",
+          "count": 8
+        },
+        {
+          "id": "minecraft:ink_sac",
+          "count": 8
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:paper",
+        "count": 1,
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"벌크 판다의 형판\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+          "minecraft:item_name": "\"panda_signboard\"",
+          "minecraft:lore": [
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"잠든 벌크 판다를 깨울 수 있습니다.\"}",
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"대형 제작대에서 제작할 수 있습니다.\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+            "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 아이템 귀속 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"사용 시 귀속됨\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+          ],
+          "minecraft:custom_model_data": {
+            "floats": [
+              2066002.0
+            ]
+          },
+          "minecraft:tooltip_style": "minecraft:rare",
+          "minecraft:custom_data": {
+            "PublicBukkitValues": {
+              "minecraft:item_id": "other:4182",
+              "nexo:id": "panda_signboard",
+              "minecraft:bind_owner": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "dd7893368a631cb8a917dae411c1df34bb2fccb0c4b29e60538d0f3195232e0f",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309690319,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:soul_lantern",
+          "count": 8
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"고대의 잔재\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀃ\"}",
+            "minecraft:item_name": "\"deepdark_fragment\"",
+            "minecraft:lore": [
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"워든 처치 시 확률적으로 획득합니다.\"}",
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 워든 심장 제작에 사용됩니다.\"}"
+            ],
+            "minecraft:custom_model_data": {
+              "floats": [
+                2064002.0
+              ]
+            },
+            "minecraft:tooltip_style": "minecraft:normal",
+            "minecraft:custom_data": {
+              "PublicBukkitValues": {
+                "minecraft:item_id": "other:3883",
+                "nexo:id": "deepdark_fragment"
+              }
+            }
+          }
+        },
+        {
+          "id": "minecraft:soul_lantern",
+          "count": 8
+        },
+        null,
+        null,
+        {
+          "id": "minecraft:redstone_block",
+          "count": 10
+        },
+        {
+          "id": "minecraft:emerald_block",
+          "count": 1
+        },
+        {
+          "id": "minecraft:redstone_block",
+          "count": 10
+        },
+        null,
+        null,
+        {
+          "id": "minecraft:sculk_catalyst",
+          "count": 3
+        },
+        {
+          "id": "minecraft:sculk_catalyst",
+          "count": 3
+        },
+        {
+          "id": "minecraft:sculk_catalyst",
+          "count": 3
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:paper",
+        "count": 1,
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"벌크 워든의 심장\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+          "minecraft:item_name": "\"warden_heart\"",
+          "minecraft:lore": [
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"잠든 벌크 워든을 깨울 수 있습니다.\"}",
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"대형 제작대에서 제작할 수 있습니다.\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
+            "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
+            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 아이템 귀속 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"사용 시 귀속됨\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
+          ],
+          "minecraft:custom_model_data": {
+            "floats": [
+              2064017.0
+            ]
+          },
+          "minecraft:tooltip_style": "minecraft:rare",
+          "minecraft:custom_data": {
+            "PublicBukkitValues": {
+              "minecraft:item_id": "other:3881",
+              "nexo:id": "warden_heart",
+              "minecraft:bind_owner": ""
+            }
+          }
+        }
+      }
+    },
+    {
       "id": "2611cdf8daeb045202e6999899ab1d5ef484e1c0c222d194366a305fdf93043c",
       "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137470841,
+      "saved_at": 1793309688698,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -191,7 +1141,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137468919,
+      "saved_at": 1793309687209,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -291,7 +1241,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137466600,
+      "saved_at": 1793309685584,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -395,7 +1345,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137464210,
+      "saved_at": 1793309684108,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -569,7 +1519,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137462311,
+      "saved_at": 1793309682482,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -743,7 +1693,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137460429,
+      "saved_at": 1793309680798,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -912,7 +1862,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137455618,
+      "saved_at": 1793309679188,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -1081,7 +2031,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137453628,
+      "saved_at": 1793309677703,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -1250,7 +2200,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137448186,
+      "saved_at": 1793309676095,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -1419,7 +2369,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137445772,
+      "saved_at": 1793309674481,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -1588,7 +2538,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137441937,
+      "saved_at": 1793309672081,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -1757,7 +2707,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137438335,
+      "saved_at": 1793309670602,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -1926,7 +2876,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137436215,
+      "saved_at": 1793309668983,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -2095,7 +3045,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137431525,
+      "saved_at": 1793309667308,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -2264,7 +3214,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137429671,
+      "saved_at": 1793309665688,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -2433,7 +3383,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137427715,
+      "saved_at": 1793309664100,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -2602,7 +3552,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137425108,
+      "saved_at": 1793309662484,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -2771,7 +3721,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137375028,
+      "saved_at": 1793309660210,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -3040,7 +3990,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137373299,
+      "saved_at": 1793309658585,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -3309,7 +4259,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137365526,
+      "saved_at": 1793309657112,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -3578,7 +4528,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137363088,
+      "saved_at": 1793309655424,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -3847,7 +4797,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137360958,
+      "saved_at": 1793309653831,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -4116,7 +5066,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137359067,
+      "saved_at": 1793309652286,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -4385,7 +5335,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137356716,
+      "saved_at": 1793309650686,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -4654,7 +5604,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137354570,
+      "saved_at": 1793309649067,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -4923,7 +5873,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137351073,
+      "saved_at": 1793309647439,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -5005,7 +5955,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137349031,
+      "saved_at": 1793309645963,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -5087,7 +6037,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137346150,
+      "saved_at": 1793309644275,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -5169,7 +6119,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137342527,
+      "saved_at": 1793309642674,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -5251,7 +6201,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137340530,
+      "saved_at": 1793309641045,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -5333,7 +6283,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137338480,
+      "saved_at": 1793309639498,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -5415,7 +6365,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137335676,
+      "saved_at": 1793309637889,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -5497,7 +6447,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137333376,
+      "saved_at": 1793309636399,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -5579,7 +6529,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137331199,
+      "saved_at": 1793309634790,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -5661,7 +6611,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137327125,
+      "saved_at": 1793309633305,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -5743,7 +6693,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137324929,
+      "saved_at": 1793309631623,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -5825,7 +6775,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137322908,
+      "saved_at": 1793309630079,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -5907,7 +6857,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137316684,
+      "saved_at": 1793309628472,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -5989,7 +6939,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137313476,
+      "saved_at": 1793309626937,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -6071,7 +7021,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137310586,
+      "saved_at": 1793309625352,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -6153,7 +7103,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137306790,
+      "saved_at": 1793309623852,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -6235,7 +7185,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137304577,
+      "saved_at": 1793309622302,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -6316,7 +7266,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137301953,
+      "saved_at": 1793309620702,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -6397,7 +7347,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137299627,
+      "saved_at": 1793309619154,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -6462,7 +7412,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137297417,
+      "saved_at": 1793309617555,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -6538,7 +7488,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137294267,
+      "saved_at": 1793309616002,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -6614,7 +7564,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137291025,
+      "saved_at": 1793309614414,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -6690,7 +7640,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137200029,
+      "saved_at": 1793309612903,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -6766,7 +7716,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793137191273,
+      "saved_at": 1793309611323,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         {
@@ -6837,508 +7787,12 @@
       }
     },
     {
-      "id": "dd7893368a631cb8a917dae411c1df34bb2fccb0c4b29e60538d0f3195232e0f",
-      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
-      "gui_title": "󏿐ꀃ󏿘쀃",
-      "width": 5,
-      "height": 5,
-      "saved_at": 1793137152355,
-      "quantity_basis": "observed_gui_slots",
-      "ingredients": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:soul_lantern",
-          "count": 8
-        },
-        {
-          "id": "minecraft:paper",
-          "count": 1,
-          "components": {
-            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"고대의 잔재\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀃ\"}",
-            "minecraft:item_name": "\"deepdark_fragment\"",
-            "minecraft:lore": [
-              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"워든 처치 시 확률적으로 획득합니다.\"}",
-              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"벌크 워든 심장 제작에 사용됩니다.\"}"
-            ],
-            "minecraft:custom_model_data": {
-              "floats": [
-                2064002.0
-              ]
-            },
-            "minecraft:tooltip_style": "minecraft:normal",
-            "minecraft:custom_data": {
-              "PublicBukkitValues": {
-                "minecraft:item_id": "other:3883",
-                "nexo:id": "deepdark_fragment"
-              }
-            }
-          }
-        },
-        {
-          "id": "minecraft:soul_lantern",
-          "count": 8
-        },
-        null,
-        null,
-        {
-          "id": "minecraft:redstone_block",
-          "count": 10
-        },
-        {
-          "id": "minecraft:emerald_block",
-          "count": 1
-        },
-        {
-          "id": "minecraft:redstone_block",
-          "count": 10
-        },
-        null,
-        null,
-        {
-          "id": "minecraft:sculk_catalyst",
-          "count": 3
-        },
-        {
-          "id": "minecraft:sculk_catalyst",
-          "count": 3
-        },
-        {
-          "id": "minecraft:sculk_catalyst",
-          "count": 3
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "result": {
-        "id": "minecraft:paper",
-        "count": 1,
-        "components": {
-          "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"벌크 워든의 심장\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
-          "minecraft:item_name": "\"warden_heart\"",
-          "minecraft:lore": [
-            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"잠든 벌크 워든을 깨울 수 있습니다.\"}",
-            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"대형 제작대에서 제작할 수 있습니다.\"}",
-            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"#353535\",\"extra\":[{\"keybind\":\"key.hotbar.9\"},\"키로 접기)\"],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"(\"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-1\",\"italic\":false,\"text\":\"▼ 기본 정보                          \"}",
-            "{\"color\":\"white\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/ui/lore\",\"italic\":false,\"text\":\"ꀁ\"}",
-            "{\"color\":\"#8C8C8C\",\"extra\":[{\"color\":\"white\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\" 아이템 귀속 : \"},{\"color\":\"#A6A6A6\",\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"사용 시 귀속됨\"}],\"font\":\"minecraft:default-small\",\"italic\":false,\"text\":\"◇\"}"
-          ],
-          "minecraft:custom_model_data": {
-            "floats": [
-              2064017.0
-            ]
-          },
-          "minecraft:tooltip_style": "minecraft:rare",
-          "minecraft:custom_data": {
-            "PublicBukkitValues": {
-              "minecraft:item_id": "other:3881",
-              "nexo:id": "warden_heart",
-              "minecraft:bind_owner": ""
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "ab9b44b776e166f971c9ddc3dde94262d2fdc8101dc98435f0495aba2021ea21",
-      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
-      "gui_title": "󏿐ꀃ󏿘쀃",
-      "width": 5,
-      "height": 5,
-      "saved_at": 1793137149976,
-      "quantity_basis": "observed_gui_slots",
-      "ingredients": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:honey_block",
-          "count": 1
-        },
-        null,
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:gold_ingot",
-          "count": 2
-        },
-        null,
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:soul_campfire",
-          "count": 1
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "result": {
-        "id": "minecraft:honey_block",
-        "count": 2
-      }
-    },
-    {
-      "id": "da11bcf04f9165174cd592244de056ca82293bcd425e233f2df1e4c7d9065993",
-      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
-      "gui_title": "󏿐ꀃ󏿘쀃",
-      "width": 5,
-      "height": 5,
-      "saved_at": 1793137148042,
-      "quantity_basis": "observed_gui_slots",
-      "ingredients": [
-        {
-          "id": "minecraft:string",
-          "count": 1
-        },
-        {
-          "id": "minecraft:string",
-          "count": 1
-        },
-        {
-          "id": "minecraft:string",
-          "count": 1
-        },
-        {
-          "id": "minecraft:string",
-          "count": 1
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "result": {
-        "id": "minecraft:cobweb",
-        "count": 1
-      }
-    },
-    {
-      "id": "a20521b80576fc95878c2ba997c6c530db93e8128fee2bc6492a50df4dc83695",
-      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
-      "gui_title": "󏿐ꀃ󏿘쀃",
-      "width": 5,
-      "height": 5,
-      "saved_at": 1793137146286,
-      "quantity_basis": "observed_gui_slots",
-      "ingredients": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:paper",
-          "count": 1
-        },
-        {
-          "id": "minecraft:heart_of_the_sea",
-          "count": 1
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "result": {
-        "id": "minecraft:globe_banner_pattern",
-        "count": 1
-      }
-    },
-    {
-      "id": "8f60ec1f98852e79e276be55361e98e891edd95a6cf502e545ce813c64873208",
-      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
-      "gui_title": "󏿐ꀃ󏿘쀃",
-      "width": 5,
-      "height": 5,
-      "saved_at": 1793137143650,
-      "quantity_basis": "observed_gui_slots",
-      "ingredients": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:honeycomb",
-          "count": 4
-        },
-        null,
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:iron_ingot",
-          "count": 2
-        },
-        null,
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:campfire",
-          "count": 1
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "result": {
-        "id": "minecraft:honeycomb",
-        "count": 16
-      }
-    },
-    {
-      "id": "40610354b29cd879805bd1f5dbc3357c1d7f09d536e381ce7cebfac97a261cd8",
-      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
-      "gui_title": "󏿐ꀃ󏿘쀃",
-      "width": 5,
-      "height": 5,
-      "saved_at": 1793137141031,
-      "quantity_basis": "observed_gui_slots",
-      "ingredients": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:seagrass",
-          "count": 32
-        },
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:seagrass",
-          "count": 32
-        },
-        {
-          "id": "minecraft:sea_pickle",
-          "count": 1
-        },
-        {
-          "id": "minecraft:seagrass",
-          "count": 32
-        },
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:seagrass",
-          "count": 32
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "result": {
-        "id": "minecraft:turtle_scute",
-        "count": 1
-      }
-    },
-    {
-      "id": "17e3ffff503f7024e2b4ba9424a3b23c645a164165ac4fc1578da8c4c4d5f5a0",
-      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
-      "gui_title": "󏿐ꀃ󏿘쀃",
-      "width": 5,
-      "height": 5,
-      "saved_at": 1793137138854,
-      "quantity_basis": "observed_gui_slots",
-      "ingredients": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:popped_chorus_fruit",
-          "count": 8
-        },
-        {
-          "id": "minecraft:nether_star",
-          "count": 1
-        },
-        {
-          "id": "minecraft:popped_chorus_fruit",
-          "count": 8
-        },
-        null,
-        null,
-        {
-          "id": "minecraft:ender_eye",
-          "count": 16
-        },
-        {
-          "id": "minecraft:glass_bottle",
-          "count": 1
-        },
-        {
-          "id": "minecraft:ghast_tear",
-          "count": 16
-        },
-        null,
-        null,
-        {
-          "id": "minecraft:obsidian",
-          "count": 8
-        },
-        {
-          "id": "minecraft:crying_obsidian",
-          "count": 1
-        },
-        {
-          "id": "minecraft:obsidian",
-          "count": 8
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "result": {
-        "id": "minecraft:dragon_breath",
-        "count": 50
-      }
-    },
-    {
-      "id": "9f9e7fe4cd124a36b735becaf600c9ccd6e99612dd9e57fa5d9e39779c4abbb1",
-      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
-      "gui_title": "󏿐ꀃ󏿘쀃",
-      "width": 5,
-      "height": 5,
-      "saved_at": 1793137136960,
-      "quantity_basis": "observed_gui_slots",
-      "ingredients": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:paper",
-          "count": 32
-        },
-        {
-          "id": "minecraft:wheat",
-          "count": 32
-        },
-        {
-          "id": "minecraft:coal",
-          "count": 32
-        },
-        null,
-        null,
-        {
-          "id": "minecraft:potato",
-          "count": 32
-        },
-        {
-          "id": "minecraft:nautilus_shell",
-          "count": 1
-        },
-        {
-          "id": "minecraft:carrot",
-          "count": 32
-        },
-        null,
-        null,
-        {
-          "id": "minecraft:gunpowder",
-          "count": 32
-        },
-        {
-          "id": "minecraft:bamboo",
-          "count": 32
-        },
-        {
-          "id": "minecraft:rotten_flesh",
-          "count": 32
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "result": {
-        "id": "minecraft:heart_of_the_sea",
-        "count": 1
-      }
-    },
-    {
       "id": "4184f98edb5ae14421374c4863016d7b84bfddcdd74e6c0e1a186f2876e19cb9",
       "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793135996252,
+      "saved_at": 1793309609006,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -7483,7 +7937,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793135994215,
+      "saved_at": 1793309607404,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -7628,7 +8082,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793135992463,
+      "saved_at": 1793309605808,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -7773,7 +8227,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793135990613,
+      "saved_at": 1793309604258,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -7918,7 +8372,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793135985504,
+      "saved_at": 1793309602704,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -8058,157 +8512,12 @@
       }
     },
     {
-      "id": "05512b0de2a66b56c807ca5fab4607586ca58413fd9a52a991d8f90dd9035fb3",
-      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
-      "gui_title": "󏿐ꀃ󏿘쀃",
-      "width": 5,
-      "height": 5,
-      "saved_at": 1793135979999,
-      "quantity_basis": "observed_gui_slots",
-      "ingredients": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        {
-          "id": "minecraft:resin_brick",
-          "count": 10
-        },
-        {
-          "id": "minecraft:recovery_compass",
-          "count": 1
-        },
-        {
-          "id": "minecraft:resin_brick",
-          "count": 10
-        },
-        null,
-        null,
-        {
-          "id": "minecraft:paper",
-          "count": 50,
-          "components": {
-            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"코룸 주괴\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀂ\"}",
-            "minecraft:lore": [
-              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"세레니티의 커먼 등급 주괴입니다.\"}",
-              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"코룸을 제련하여 얻을 수 있습니다.\"}"
-            ],
-            "minecraft:custom_model_data": {
-              "floats": [
-                2006004.0
-              ]
-            },
-            "minecraft:tooltip_style": "minecraft:common",
-            "minecraft:custom_data": {
-              "PublicBukkitValues": {
-                "minecraft:item_id": "other:287",
-                "nexo:id": "corum_ingot"
-              }
-            }
-          }
-        },
-        {
-          "id": "minecraft:paper",
-          "count": 50,
-          "components": {
-            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"리프톤 주괴\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀃ\"}",
-            "minecraft:lore": [
-              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"세레니티의 노멀 등급 주괴입니다.\"}",
-              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"리프톤을 제련하여 얻을 수 있습니다.\"}"
-            ],
-            "minecraft:custom_model_data": {
-              "floats": [
-                2006006.0
-              ]
-            },
-            "minecraft:tooltip_style": "minecraft:normal",
-            "minecraft:custom_data": {
-              "PublicBukkitValues": {
-                "minecraft:item_id": "other:288",
-                "nexo:id": "leaftone_ingot"
-              }
-            }
-          }
-        },
-        {
-          "id": "minecraft:paper",
-          "count": 50,
-          "components": {
-            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"세렌트 주괴\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
-            "minecraft:lore": [
-              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"세레니티의 레어 등급 주괴입니다.\"}",
-              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"세렌트를 제련하여 얻을 수 있습니다.\"}"
-            ],
-            "minecraft:custom_model_data": {
-              "floats": [
-                2006010.0
-              ]
-            },
-            "minecraft:tooltip_style": "minecraft:rare",
-            "minecraft:custom_data": {
-              "PublicBukkitValues": {
-                "minecraft:item_id": "other:289",
-                "nexo:id": "serent_ingot"
-              }
-            }
-          }
-        },
-        null,
-        null,
-        {
-          "id": "minecraft:resin_brick",
-          "count": 10
-        },
-        {
-          "id": "minecraft:netherite_ingot",
-          "count": 1
-        },
-        {
-          "id": "minecraft:resin_brick",
-          "count": 10
-        },
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "result": {
-        "id": "minecraft:paper",
-        "count": 1,
-        "components": {
-          "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"도구 제작 시설 청사진\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
-          "minecraft:item_name": "\"workshop_table_tool\"",
-          "minecraft:lore": [
-            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"도구/무기 제작을 위한 시설 청사진입니다.\"}",
-            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"마을, 야생에 설치하여 사용할 수 있습니다.\"}"
-          ],
-          "minecraft:custom_model_data": {
-            "floats": [
-              2010018.0
-            ]
-          },
-          "minecraft:tooltip_style": "minecraft:rare",
-          "minecraft:custom_data": {
-            "PublicBukkitValues": {
-              "minecraft:item_id": "other:404",
-              "nexo:id": "workshop_table_tool",
-              "nexo:furniture": 1
-            }
-          }
-        }
-      }
-    },
-    {
       "id": "c5e79593543e88cae299e2f8fbeda3bbf7b3dd819d3f3986e8aa3f53dc12b0cd",
       "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793052418782,
+      "saved_at": 1793309601158,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -8348,12 +8657,157 @@
       }
     },
     {
+      "id": "05512b0de2a66b56c807ca5fab4607586ca58413fd9a52a991d8f90dd9035fb3",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309599603,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:resin_brick",
+          "count": 10
+        },
+        {
+          "id": "minecraft:recovery_compass",
+          "count": 1
+        },
+        {
+          "id": "minecraft:resin_brick",
+          "count": 10
+        },
+        null,
+        null,
+        {
+          "id": "minecraft:paper",
+          "count": 50,
+          "components": {
+            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"코룸 주괴\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀂ\"}",
+            "minecraft:lore": [
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"세레니티의 커먼 등급 주괴입니다.\"}",
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"코룸을 제련하여 얻을 수 있습니다.\"}"
+            ],
+            "minecraft:custom_model_data": {
+              "floats": [
+                2006004.0
+              ]
+            },
+            "minecraft:tooltip_style": "minecraft:common",
+            "minecraft:custom_data": {
+              "PublicBukkitValues": {
+                "minecraft:item_id": "other:287",
+                "nexo:id": "corum_ingot"
+              }
+            }
+          }
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 50,
+          "components": {
+            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"리프톤 주괴\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀃ\"}",
+            "minecraft:lore": [
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"세레니티의 노멀 등급 주괴입니다.\"}",
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"리프톤을 제련하여 얻을 수 있습니다.\"}"
+            ],
+            "minecraft:custom_model_data": {
+              "floats": [
+                2006006.0
+              ]
+            },
+            "minecraft:tooltip_style": "minecraft:normal",
+            "minecraft:custom_data": {
+              "PublicBukkitValues": {
+                "minecraft:item_id": "other:288",
+                "nexo:id": "leaftone_ingot"
+              }
+            }
+          }
+        },
+        {
+          "id": "minecraft:paper",
+          "count": 50,
+          "components": {
+            "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"세렌트 주괴\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+            "minecraft:lore": [
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"세레니티의 레어 등급 주괴입니다.\"}",
+              "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"세렌트를 제련하여 얻을 수 있습니다.\"}"
+            ],
+            "minecraft:custom_model_data": {
+              "floats": [
+                2006010.0
+              ]
+            },
+            "minecraft:tooltip_style": "minecraft:rare",
+            "minecraft:custom_data": {
+              "PublicBukkitValues": {
+                "minecraft:item_id": "other:289",
+                "nexo:id": "serent_ingot"
+              }
+            }
+          }
+        },
+        null,
+        null,
+        {
+          "id": "minecraft:resin_brick",
+          "count": 10
+        },
+        {
+          "id": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        {
+          "id": "minecraft:resin_brick",
+          "count": 10
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:paper",
+        "count": 1,
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"white\",\"extra\":[{\"extra\":[{\"color\":\"white\",\"text\":\"도구 제작 시설 청사진\"}],\"font\":\"minecraft:default\",\"italic\":false,\"text\":\" \"}],\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/icon/grade\",\"italic\":false,\"text\":\"ꀄ\"}",
+          "minecraft:item_name": "\"workshop_table_tool\"",
+          "minecraft:lore": [
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"도구/무기 제작을 위한 시설 청사진입니다.\"}",
+            "{\"color\":\"#D5D5D5\",\"font\":\"e94a3c2f-10aa-4d92-9ed0-c73f74fef20e:item/lore-4\",\"italic\":false,\"text\":\"마을, 야생에 설치하여 사용할 수 있습니다.\"}"
+          ],
+          "minecraft:custom_model_data": {
+            "floats": [
+              2010018.0
+            ]
+          },
+          "minecraft:tooltip_style": "minecraft:rare",
+          "minecraft:custom_data": {
+            "PublicBukkitValues": {
+              "minecraft:item_id": "other:404",
+              "nexo:id": "workshop_table_tool",
+              "nexo:furniture": 1
+            }
+          }
+        }
+      }
+    },
+    {
       "id": "516ce63be3778ea85c32b06f940861a02550c45c7e4bf14d377b29dfd894cfbf",
       "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793052413707,
+      "saved_at": 1793309598055,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -8498,7 +8952,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793052410976,
+      "saved_at": 1793309596458,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -8643,7 +9097,7 @@
       "gui_title": "󏿐ꀃ󏿘쀃",
       "width": 5,
       "height": 5,
-      "saved_at": 1793052406681,
+      "saved_at": 1793309594904,
       "quantity_basis": "observed_gui_slots",
       "ingredients": [
         null,
@@ -8781,9 +9235,404 @@
           }
         }
       }
+    },
+    {
+      "id": "ab9b44b776e166f971c9ddc3dde94262d2fdc8101dc98435f0495aba2021ea21",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309592605,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:honey_block",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:gold_ingot",
+          "count": 2
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:soul_campfire",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:honey_block",
+        "count": 2
+      }
+    },
+    {
+      "id": "da11bcf04f9165174cd592244de056ca82293bcd425e233f2df1e4c7d9065993",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309591056,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:cobweb",
+        "count": 1
+      }
+    },
+    {
+      "id": "a20521b80576fc95878c2ba997c6c530db93e8128fee2bc6492a50df4dc83695",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309589505,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:paper",
+          "count": 1
+        },
+        {
+          "id": "minecraft:heart_of_the_sea",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:globe_banner_pattern",
+        "count": 1
+      }
+    },
+    {
+      "id": "8f60ec1f98852e79e276be55361e98e891edd95a6cf502e545ce813c64873208",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309588008,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:honeycomb",
+          "count": 4
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:iron_ingot",
+          "count": 2
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:campfire",
+          "count": 1
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:honeycomb",
+        "count": 16
+      }
+    },
+    {
+      "id": "40610354b29cd879805bd1f5dbc3357c1d7f09d536e381ce7cebfac97a261cd8",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309586460,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:seagrass",
+          "count": 32
+        },
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:seagrass",
+          "count": 32
+        },
+        {
+          "id": "minecraft:sea_pickle",
+          "count": 1
+        },
+        {
+          "id": "minecraft:seagrass",
+          "count": 32
+        },
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:seagrass",
+          "count": 32
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:turtle_scute",
+        "count": 1
+      }
+    },
+    {
+      "id": "17e3ffff503f7024e2b4ba9424a3b23c645a164165ac4fc1578da8c4c4d5f5a0",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309584865,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:popped_chorus_fruit",
+          "count": 8
+        },
+        {
+          "id": "minecraft:nether_star",
+          "count": 1
+        },
+        {
+          "id": "minecraft:popped_chorus_fruit",
+          "count": 8
+        },
+        null,
+        null,
+        {
+          "id": "minecraft:ender_eye",
+          "count": 16
+        },
+        {
+          "id": "minecraft:glass_bottle",
+          "count": 1
+        },
+        {
+          "id": "minecraft:ghast_tear",
+          "count": 16
+        },
+        null,
+        null,
+        {
+          "id": "minecraft:obsidian",
+          "count": 8
+        },
+        {
+          "id": "minecraft:crying_obsidian",
+          "count": 1
+        },
+        {
+          "id": "minecraft:obsidian",
+          "count": 8
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:dragon_breath",
+        "count": 50
+      }
+    },
+    {
+      "id": "9f9e7fe4cd124a36b735becaf600c9ccd6e99612dd9e57fa5d9e39779c4abbb1",
+      "gui_key": "2bd3496378c22d4b0d1b501963e6fcc93f62dc43ff41ef06dc653e7e5b3bca3e",
+      "gui_title": "󏿐ꀃ󏿘쀃",
+      "width": 5,
+      "height": 5,
+      "saved_at": 1793309583313,
+      "quantity_basis": "observed_gui_slots",
+      "ingredients": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "minecraft:paper",
+          "count": 32
+        },
+        {
+          "id": "minecraft:wheat",
+          "count": 32
+        },
+        {
+          "id": "minecraft:coal",
+          "count": 32
+        },
+        null,
+        null,
+        {
+          "id": "minecraft:potato",
+          "count": 32
+        },
+        {
+          "id": "minecraft:nautilus_shell",
+          "count": 1
+        },
+        {
+          "id": "minecraft:carrot",
+          "count": 32
+        },
+        null,
+        null,
+        {
+          "id": "minecraft:gunpowder",
+          "count": 32
+        },
+        {
+          "id": "minecraft:bamboo",
+          "count": 32
+        },
+        {
+          "id": "minecraft:rotten_flesh",
+          "count": 32
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "result": {
+        "id": "minecraft:heart_of_the_sea",
+        "count": 1
+      }
     }
   ],
   "tabs": {
+    "82061d0f2b10597d7e1a9993d56697903d30ef3f42fa71ba76e78a3989b9d348": "misc",
+    "b0d387962d52147c3a114efe5e2f6687cccb862146f026684577f562a0b3b4d6": "misc",
+    "300a460d7575b100f9c857eb98929456dd3b7ce1c9ae429f23a48e145f538672": "misc",
+    "0080f4aacc0a90a52e21b5157f1e71683baf9b053c5a1a0bd5604187d08a6095": "misc",
+    "cd04797cf9a528babbf7728ca27c12d37b61d6455c123ed5b91d897dd96a7f11": "misc",
+    "33345267a47ba3608b28f49e0ab0c56ca607b7336cff8ca8a504006163f7ac89": "misc",
+    "53649886aaee25d80d6f6448dffa1d966507adf4acf7643ff99b7ae676e86220": "misc",
+    "bb8fd3bfac4a44c703ff230a4ec3ee9d2930fe5a02f1d1455528b99bcb93e251": "misc",
+    "1ca033aaf8a583dee84dc3d27e53bd3405c6ae264e9203d79ec071e500c258d5": "misc",
+    "dd7893368a631cb8a917dae411c1df34bb2fccb0c4b29e60538d0f3195232e0f": "misc",
     "2611cdf8daeb045202e6999899ab1d5ef484e1c0c222d194366a305fdf93043c": "misc",
     "b6d3034b8c8c65c614708008c1310bc17c8f828b59886752f4e37ab2808419e0": "misc",
     "a799689a286be61db1dc2ac5f6288dd193937594c8a919429417191d525e218a": "misc",
@@ -8833,23 +9682,22 @@
     "b47c80a2612c0e3efb118ecf43dd4e0fdf2eccee5016b7f58f118963afe17871": "equipment",
     "6d425cfdb47336062859b2ba86dfff54d1ab00431cee6763814af9e20ea9a7ef": "equipment",
     "1d1477592bb5435552bfc2d2c295bf92a6cb30e1590ac628777b4b5218f5edab": "equipment",
-    "dd7893368a631cb8a917dae411c1df34bb2fccb0c4b29e60538d0f3195232e0f": "wild",
+    "4184f98edb5ae14421374c4863016d7b84bfddcdd74e6c0e1a186f2876e19cb9": "building",
+    "d3fd660e0adfc5e91851401ea33bd7e11e32f00709c14d414ea196f2ad0ca90a": "building",
+    "d0994379d85d74c64d190b22dba0f7a8b3ebf6223f370d0b21165e904db92ee4": "building",
+    "9ae547140ca96eed7cff7ec51a1526eac95b7e3064dc61462f0b7c00879683d1": "building",
+    "7b6b574673c3227d4af0dd54392c5d94c1783eabb85e82e0ae140e5c2cd549fd": "building",
+    "c5e79593543e88cae299e2f8fbeda3bbf7b3dd819d3f3986e8aa3f53dc12b0cd": "building",
+    "05512b0de2a66b56c807ca5fab4607586ca58413fd9a52a991d8f90dd9035fb3": "building",
+    "516ce63be3778ea85c32b06f940861a02550c45c7e4bf14d377b29dfd894cfbf": "building",
+    "405a4e95c21119571afd40f64fea406735d8bc69c7a3e432db96ae76dca272d5": "building",
+    "a549dd18890d6b6642f897546894fbae0560a7fdb28a14c879a0c0e6d71ad514": "building",
     "ab9b44b776e166f971c9ddc3dde94262d2fdc8101dc98435f0495aba2021ea21": "wild",
     "da11bcf04f9165174cd592244de056ca82293bcd425e233f2df1e4c7d9065993": "wild",
     "a20521b80576fc95878c2ba997c6c530db93e8128fee2bc6492a50df4dc83695": "wild",
     "8f60ec1f98852e79e276be55361e98e891edd95a6cf502e545ce813c64873208": "wild",
     "40610354b29cd879805bd1f5dbc3357c1d7f09d536e381ce7cebfac97a261cd8": "wild",
     "17e3ffff503f7024e2b4ba9424a3b23c645a164165ac4fc1578da8c4c4d5f5a0": "wild",
-    "9f9e7fe4cd124a36b735becaf600c9ccd6e99612dd9e57fa5d9e39779c4abbb1": "wild",
-    "4184f98edb5ae14421374c4863016d7b84bfddcdd74e6c0e1a186f2876e19cb9": "building",
-    "d3fd660e0adfc5e91851401ea33bd7e11e32f00709c14d414ea196f2ad0ca90a": "building",
-    "d0994379d85d74c64d190b22dba0f7a8b3ebf6223f370d0b21165e904db92ee4": "building",
-    "9ae547140ca96eed7cff7ec51a1526eac95b7e3064dc61462f0b7c00879683d1": "building",
-    "7b6b574673c3227d4af0dd54392c5d94c1783eabb85e82e0ae140e5c2cd549fd": "building",
-    "05512b0de2a66b56c807ca5fab4607586ca58413fd9a52a991d8f90dd9035fb3": "building",
-    "c5e79593543e88cae299e2f8fbeda3bbf7b3dd819d3f3986e8aa3f53dc12b0cd": "building",
-    "516ce63be3778ea85c32b06f940861a02550c45c7e4bf14d377b29dfd894cfbf": "building",
-    "405a4e95c21119571afd40f64fea406735d8bc69c7a3e432db96ae76dca272d5": "building",
-    "a549dd18890d6b6642f897546894fbae0560a7fdb28a14c879a0c0e6d71ad514": "building"
+    "9f9e7fe4cd124a36b735becaf600c9ccd6e99612dd9e57fa5d9e39779c4abbb1": "wild"
   }
 }
